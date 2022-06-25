@@ -1,4 +1,4 @@
-module github.com/aliyun/fc-runtime-go-sdk
+module github.com/cloud-org/fc-runtime-go-sdk
 
 go 1.16
 
@@ -10,4 +10,8 @@ require (
 	github.com/urfave/cli/v2 v2.3.0
 	go.uber.org/atomic v1.9.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
+)
+
+replace (
+	github.com/aliyun/fc-runtime-go-sdk => ./
 )
